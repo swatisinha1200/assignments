@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgb(48, 128, 128) 50%, white 50%);
+  height: 100vh;
+  font-family: Arial, sans-serif;
+
+}
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: 80px auto;
+  background: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  justify-content: center;
+}
+.contact-form {
+  flex: 2;
+  max-width: 900px;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #4582bb;
+
+}
+.contact-form h2 {
+  color: #143c6d;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.half-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 40px;
+
+}
+.full-width {
+  flex: 100%;
+}
+
+label {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #888;
+}
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 10px 5px;
+  font-size: 16px;
+  background-color: transparent;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid #1d3557;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background-color: #143c6d;
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.info-box {
+  flex: 1;
+  padding: 40px;
+  background-color: #1c3c6b;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.aside-heading .highlight {
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+.aside-para {
+  margin-bottom: 20px;
+  color: #ccc;
+  font-size: 14px;
+  padding: 12px;
+}
+.map {
+  margin-bottom: 20px;
+}
+.contact-nfo{
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.6;
+}
+i{
+  margin-top: 3px;
+  color: white;
+  font-size: 18px;
+  min-width: 20px;
+  margin-bottom: 20px;
+}
+p{
+  margin: 0 0 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
